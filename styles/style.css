@@ -445,6 +445,12 @@ dialog::backdrop {
 
 /* Фильтры */
 
+/* Фритрек и нулевой спринт */
+
+.image-filter-brightness {
+  filter: brightness(100%);
+}
+
 /* 1 спринт: Я — чистый лист */
 .image-filter-grayscale {
   filter: grayscale(70%);
