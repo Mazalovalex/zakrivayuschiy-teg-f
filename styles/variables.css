@@ -27,7 +27,6 @@
         transparent 4px
       ),
     /* Третий градиен */ linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-  --button-color: #000000;
 
   --text-color: #000000;
   --bg-header-container: #fff;

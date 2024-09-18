@@ -18,7 +18,7 @@
   min-block-size: 100vh;
 
   font-family: var(--font-primary, "Roboto");
-  font-variation-settings: "wght" var(--font-primary-weight, "Roboto");
+  font-variation-settings: "wght" var(--font-primary-weight, 465);
 
   background: var(--background-image);
   background-color: var(--bg-color);
