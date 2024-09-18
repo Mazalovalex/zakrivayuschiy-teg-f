@@ -12,4 +12,4 @@
 
 ## Опубликованный проект
 
-[Ссылка на Опубликованный проекта](https://mazalovalex.github.io/zakrivayuschiy-teg-f/)
+**Посмотреть проект**: [Открыть в новой вкладке](https://mazalovalex.github.io/zakrivayuschiy-teg-f/)
