@@ -4,3 +4,138 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+  --bg-color: #ffffff;
+  --button-color: #000000;
+
+  --background-image: 
+	/* Первый градиен */ repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    /* Второй градиен */
+      repeating-linear-gradient(
+        to bottom,
+        #d3d3d3 0,
+        #d3d3d3 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+    /* Третий градиен */ linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --button-color: #000000;
+
+  --text-color: #000000;
+  --bg-header-container: #fff;
+  --border-container: #000000;
+
+  --section-min-width: 320px; /* Минимальная ширина секций */
+  --section-max-width: 700px; /* Максимальная ширина секций */
+
+  --background-button: #fff;
+  --button-text-color: #fff;
+
+  --label-color: #000000;
+  --label-text-stroke: #fff;
+
+  --contour-heart-color: #000000;
+  --fill-heart-color: #ff0000;
+  --color-hover-heart: #000000;
+  --color-aссent-themes: #000000;
+
+  --backgroun-dialog: #fff;
+  --border-dialog: #000000;
+}
+
+:root.theme-dark {
+  --bg-color: #000000;
+  --button-color: #00cc14;
+
+  --background-image: 
+	/* Первый градиен */ repeating-linear-gradient(
+      to right,
+      #000000 0,
+      #000000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    /* Второй градиен */
+      repeating-linear-gradient(
+        to bottom,
+        #000000 0,
+        #000000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+    /* Третий градиен */ linear-gradient(to bottom, #007f0c 0.01%, #004306);
+
+  --text-color: #00cc14;
+  --bg-header-container: #000000;
+  --border-container: #00cc14;
+
+  --section-min-width: 320px; /* Минимальная ширина секций */
+  --section-max-width: 700px; /* Максимальная ширина секций */
+
+  --background-button: #000000;
+  --button-text-color: #00cc14;
+
+  --label-color: #00cc14;
+  --label-text-stroke: #000000;
+
+  --contour-heart-color: #00cc14;
+  --fill-heart-color: #ff0000;
+  --color-hover-heart: #00cc14;
+  --color-aссent-themes: #00cc14;
+
+  --backgroun-dialog: #000000;
+  --border-dialog: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000000;
+    --button-color: #00cc14;
+
+    --background-image: 
+	/* Первый градиен */ repeating-linear-gradient(
+        to right,
+        #000000 0,
+        #000000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      /* Второй градиен */
+        repeating-linear-gradient(
+          to bottom,
+          #000000 0,
+          #000000 2px,
+          transparent 2px,
+          transparent 4px
+        ),
+      /* Третий градиен */ linear-gradient(to bottom, #007f0c 0.01%, #004306);
+
+    --text-color: #00cc14;
+    --bg-header-container: #000000;
+    --border-container: #00cc14;
+
+    --section-min-width: 320px; /* Минимальная ширина секций */
+    --section-max-width: 700px; /* Максимальная ширина секций */
+
+    --background-button: #000000;
+    --button-text-color: #00cc14;
+
+    --label-color: #00cc14;
+    --label-text-stroke: #000000;
+
+    --contour-heart-color: #00cc14;
+    --fill-heart-color: #ff0000;
+    --color-hover-heart: #00cc14;
+    --color-aссent-themes: #00cc14;
+
+    --backgroun-dialog: #000000;
+    --border-dialog: #00cc14;
+  }
+}
