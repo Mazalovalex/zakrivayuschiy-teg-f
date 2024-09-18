@@ -8,6 +8,8 @@
 :root.theme-light {
   --bg-color: #ffffff;
   --button-color: #000000;
+  --font-weight-title: 700;
+	--font-weight-text:400;
 
   --background-image: 
 	/* Первый градиен */ repeating-linear-gradient(
@@ -52,6 +54,8 @@
 :root.theme-dark {
   --bg-color: #000000;
   --button-color: #00cc14;
+  --font-weight-title: 785;
+  --font-weight-text: 465;
 
   --background-image: 
 	/* Первый градиен */ repeating-linear-gradient(
@@ -96,45 +100,47 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000000;
-  --button-color: #00cc14;
+    --button-color: #00cc14;
+    --font-weight-title: 785;
+    --font-weight-text: 465;
 
-  --background-image: 
+    --background-image: 
 	/* Первый градиен */ repeating-linear-gradient(
-      to right,
-      #000000 0,
-      #000000 2px,
-      transparent 2px,
-      transparent 4px
-    ),
-    /* Второй градиен */
-      repeating-linear-gradient(
-        to bottom,
+        to right,
         #000000 0,
         #000000 2px,
         transparent 2px,
         transparent 4px
       ),
-    /* Третий градиен */ linear-gradient(to bottom, #007f0c 0.01%, #004306);
+      /* Второй градиен */
+        repeating-linear-gradient(
+          to bottom,
+          #000000 0,
+          #000000 2px,
+          transparent 2px,
+          transparent 4px
+        ),
+      /* Третий градиен */ linear-gradient(to bottom, #007f0c 0.01%, #004306);
 
-  --text-color: #00cc14;
-  --bg-header-container: #000000;
-  --border-container: #00cc14;
+    --text-color: #00cc14;
+    --bg-header-container: #000000;
+    --border-container: #00cc14;
 
-  --section-min-width: 320px; /* Минимальная ширина секций */
-  --section-max-width: 700px; /* Максимальная ширина секций */
+    --section-min-width: 320px; /* Минимальная ширина секций */
+    --section-max-width: 700px; /* Максимальная ширина секций */
 
-  --background-button: #000000;
-  --button-text-color: #00cc14;
+    --background-button: #000000;
+    --button-text-color: #00cc14;
 
-  --label-color: #00cc14;
-  --label-text-stroke: #000000;
+    --label-color: #00cc14;
+    --label-text-stroke: #000000;
 
-  --contour-heart-color: #00cc14;
-  --fill-heart-color: #ff0000;
-  --color-hover-heart: #00cc14;
-  --color-aссent-themes: #00cc14;
+    --contour-heart-color: #00cc14;
+    --fill-heart-color: #ff0000;
+    --color-hover-heart: #00cc14;
+    --color-aссent-themes: #00cc14;
 
-  --backgroun-dialog: #000000;
-  --border-dialog: #00cc14;
+    --backgroun-dialog: #000000;
+    --border-dialog: #00cc14;
   }
 }

@@ -9,6 +9,8 @@
 
   --bg-color: #ffffff;
   --button-color: #000000;
+  --font-weight-title: 700;
+  --font-weight-text: 400;
 
   --background-image: 
 	/* Первый градиен */ repeating-linear-gradient(
