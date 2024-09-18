@@ -10,6 +10,6 @@
 
 Этот проект является демонстрацией всех навыков и знаний, приобретённых в рамках курса по HTML и CSS от Яндекс Практикума.
 
-## Опубликованный сайт проекта
+## Опубликованный проект
 
-<a href="https://mazalovalex.github.io/zakrivayuschiy-teg-f/" target="_blank" rel="noopener noreferrer">ссылка</a>
+[Ссылка на Опубликованный проекта](https://mazalovalex.github.io/zakrivayuschiy-teg-f/)
