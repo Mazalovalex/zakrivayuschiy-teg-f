@@ -10,6 +10,14 @@
 
 Этот проект является демонстрацией всех навыков и знаний, приобретённых в рамках курса по HTML и CSS от Яндекс Практикума.
 
+## Репозиторий проекта на GitHub
+
+[Открыть](https://github.com/Mazalovalex/zakrivayuschiy-teg-f.git)
+
 ## Опубликованный проект
 
 **Посмотреть проект**: [Открыть](https://mazalovalex.github.io/zakrivayuschiy-teg-f/)
+
+## Автор
+
+[Aleksey Mazalov](https://github.com/Mazalovalex)
