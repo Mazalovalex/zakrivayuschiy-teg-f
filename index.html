@@ -24,7 +24,7 @@
   <body class="page">
     <header class="header">
       <div class="container header__container">
-        <a href="#" class="logo">&lt;/HTML&gt;</a>
+        <a class="logo">&lt;/HTML&gt;</a>
         <h1 class="header__title">закрывающий тег</h1>
         <nav class="theme-menu header__theme-menu">
           <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -68,7 +68,7 @@
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="main_container_image">
-          <picture class="image-filter-brightness">
+          <picture class=" image-filter-brightness">
             <!-- AVIF формат  -->
             <source
               type="image/avif"
@@ -709,21 +709,19 @@
           </button>
         </div>
       </section>
-    </main>
-    <footer class="footer">
-      <button
-        class="button button_save"
-        type="button"
-        onclick="window['dialog-id'].showModal()"
-        aria-controls="dialog-id"
-      >
-        <svg viewBox="0 0 21 21" class="floppy" aria-hidden="true">
-          <use href="./svg/floppy.svg#floppy" />
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
-    <div>
+      <div class="btn">
+        <button
+          class="button button_save"
+          type="button"
+          onclick="window['dialog-id'].showModal()"
+          aria-controls="dialog-id"
+        >
+          <svg viewBox="0 0 21 21" class="floppy" aria-hidden="true">
+            <use href="./svg/floppy.svg#floppy" />
+          </svg>
+          <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
+        </button>
+      </div>
       <dialog id="dialog-id" class="dialog">
         <div class="dialog_content">
           <svg
@@ -733,20 +731,15 @@
           >
             <use href="./svg/floppy.svg#floppy" />
           </svg>
-          <h2 class="dialog__title">
-            Вставьте <br />
-            дискету, чтобы продолжить
-          </h2>
-          <button
-            class="close button"
-            type="button"
-            onclick="window['dialog-id'].close();"
-          >
+          <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
+        </div>
+        <form method="dialog">
+          <button class="close button" type="submit">
             <span class="button__text">ok</span>
           </button>
-        </div>
+        </form>
       </dialog>
-    </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

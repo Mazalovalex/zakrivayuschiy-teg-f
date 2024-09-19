@@ -2,7 +2,7 @@
 
 :root {
   --font-primary: "Inter-Variable", "Roboto";
-  --font-secondary: "PressStart2P-Regular", "Roboto";
+  --font-secondary: "PressStart2P-Regular", fantasy;
 
   --font-primary-weight: 465; /* Основной вес шрифта */
   --font-secondary-weight: 785; /* Вес шрифта заголовка */
